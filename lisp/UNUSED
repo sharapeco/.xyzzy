@@ -1,0 +1,8 @@
+;;; -*- Mode: Lisp -*-
+;;; -*- coding: utf-8 -*-
+
+;; www-mode
+(autoload 'www "www/www" t)	                ; 通常起動
+(autoload 'www-open-url "www/www" t)            ; URLを指定して起動
+(autoload 'www-open-local-file "www/www" t)     ; ローカルのファイルを指定して開く
+(autoload 'www-open-current-buffer "www/www" t)	; 現在のバッファのファイルを開く
