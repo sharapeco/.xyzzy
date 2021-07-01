@@ -1,6 +1,6 @@
 # xyzzy settings
 
-次の内容を `~/.xyzzy` に設定して、 `~/~xyzzy/lisp/*.l` を読み込むようにしている。
+次の内容を `~/.xyzzy` に設定して、 `~/~xyzzy/lisp/*.l` を読み込むようにしている (読み込み順はファイル名順になるようだ)。
 
 ```lisp
 ;; 初期ディレクトリ
@@ -14,5 +14,3 @@
 ;; ~/~xyzzy/lisp 配下の lisp ファイルを読み込む
 (mapcar #'mc-load-file (directory "~/~xyzzy/lisp/" :absolute t :wild "*.l"))
 ```
-
-- 読み込み順はよく調べていないので順序が重要な内容は別ファイルにしないほうがいいかも

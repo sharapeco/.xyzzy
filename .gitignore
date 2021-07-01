@@ -12,6 +12,7 @@ bookmark.html
 dict
 dict-src
 etc/Makefile
+lisp/0-private.l
 lisp/private.l
 
 ### Windows
